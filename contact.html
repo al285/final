@@ -1,0 +1,95 @@
+
+
+<html>
+
+<head>
+<link href='http://fonts.googleapis.com/css?family=Flamenco' rel='stylesheet' type='text/css'>
+<style>
+      #map_canvas {
+        width: 500px;
+        height: 400px;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+      function initialize() {
+        var map_canvas = document.getElementById('map_canvas');
+        var map_options = {
+          center: new google.maps.LatLng(40.740835,-74.178961),
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(map_canvas, map_options)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+
+
+
+<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" media="screen">
+   
+    <script src="js/modernizr.custom.js"></script>
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+      <header class="clearfix">
+        <span>Civic Engagement Computer Center</span>
+        <span>IT Mentoring :: High School</span>
+        <h1>Contact Information</h1>
+        
+
+<ul class="cbp-vimenu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="cu.html">Curriculum</a></li>
+    <li><a href="grade.html">Grades</a></li>
+    <li><a href="resource.html">Resources</a></li>
+    <li><a id="nav-main" href="contact.html">Contact</a></li>
+</ul>
+
+        
+</header>
+
+
+        
+
+
+<div class="main">
+<div id="map_canvas"></div>
+
+
+<p class="big"><strong>PAUL RAJAH</strong>, <i>Coordinator</i> <br/>Email: pr257@njit.edu <br/> Tel: (973) 596 5401</p>
+
+<hr>
+<p class="big">Paul Rajah is a current student at New Jersey Institute of Technology, studying Information Technology with a spelization in Information Systems. While he is not behind the computer coding Java Apps, he is behind the Pipe Organ at his local church playing the works of the great classical musicians: Bach, Beethovan, Mozart, just to name a few. Over the years of learning he loves to share the knowledge he has with others. More detail about himself, education, research, publications and more can be found throughout the site.</p>
+
+
+
+<hr>
+<footer>
+
+ <p>Career Development Services <br/>
+        Civic Engagement @ NJIT<br/>
+        New Jersey Institute of Technology<br/>
+        University Heights Newark, New Jersey 07102</p>
+
+</footer>
+</div>
+
+</body>
+
+
+</html>
