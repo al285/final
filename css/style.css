@@ -88,40 +88,5 @@ table, td, th
 border:1px solid black;
 }
 
-/*#nav {
-width: 100%;
-text-align:center;
-margin: 0 0 3em 0;
-padding: 0;
-list-style: none;
-background-color:#1B2440;
-border-bottom: 1px solid #ccc; 
-border-top: 1px solid #ccc; }
-
-#nav li {
-	
-	text-align:center;
-	border-right: 0px;
-	}
-
-#nav li a {
-	display: block;
-	padding: 8px 15px;
-	text-decoration: none;
-	font-weight: bold;
-	text-align:center;
-	color:white;
-	border-right: 0px solid #ccc; }
-
-#nav li a:hover {
-	color: white;
-	background-color: #B2CAE6; 
-	text-align:center;
-	}
-
-#nav li {
-   display: inline-block;
-   text-align:center; 
-}*/
 
 
