@@ -48,10 +48,10 @@
 }
 
  
-/* class for current item */
+
 .cbp-vimenu li.cbp-vicurrent a {
     background: #fff;
-    /*color: #47a3da; */
+  
 }
  
 .cbp-vimenu li a:before {
